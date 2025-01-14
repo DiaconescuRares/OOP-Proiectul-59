@@ -1,0 +1,16 @@
+# Sellers
+Alice,Flexible
+Bob,Moderate
+Eve,Conservative
+
+# Buyers
+Charlie,Conservative,Electronics
+David,Moderate,Furniture
+Frank,Flexible,Clothing
+
+# Products
+Gadget,100.0,Alice,Electronics
+Widget,150.0,Bob,Furniture
+Thingamajig,200.0,Eve,Electronics
+Doodad,250.0,Alice,Furniture
+Gizmo,300.0,Bob,Clothing
