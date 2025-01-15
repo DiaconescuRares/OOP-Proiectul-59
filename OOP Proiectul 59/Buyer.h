@@ -10,7 +10,7 @@ private:
 
 public:
     Buyer(const string& name, const string& style, const string& preferredCategory);
-    const std::string& getPreferredCategory() const; 
+    const string& getPreferredCategory() const; 
     double adjustPrice(double& price) override; 
 };
 

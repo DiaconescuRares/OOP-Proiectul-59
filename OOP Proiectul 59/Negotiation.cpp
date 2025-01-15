@@ -19,9 +19,9 @@ bool Negotiation::conductRound() {
         return false;  // Negotiation fails early
     }
 
-    // Apelăm metodele corecte pentru Buyer și Seller
-    buyer.adjustPrice(currentBuyerPrice);  // Polimorfism: apelăm metoda ajustării prețului pentru Buyer
-    seller.adjustPrice(currentSellerPrice);  // Polimorfism: apelăm metoda ajustării prețului pentru Seller
+   
+    buyer.adjustPrice(currentBuyerPrice);  
+    seller.adjustPrice(currentSellerPrice);  
     currentRound++;
 
     return currentRound < maxRounds;
